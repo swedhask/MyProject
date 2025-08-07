@@ -1,4 +1,4 @@
-package com.example.assess;
+package com.example.assess.controller;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import com.example.assess.entity.Course;
 import com.example.assess.response.ResponseGenerator;
+import com.example.assess.service.Courseservice;
 
 import jakarta.validation.Valid;
 

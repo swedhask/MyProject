@@ -1,4 +1,4 @@
-package com.example.assess;
+package com.example.assess.jwt;
 
 import java.security.Key;
 import java.util.Date;

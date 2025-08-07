@@ -1,4 +1,4 @@
-package com.example.assess;
+package com.example.assess.service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,6 +10,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import com.example.assess.entity.User;
+import com.example.assess.jwt.AuthRequest;
+import com.example.assess.repository.Userrepository;
 
 @Service
 public class Userservice implements UserDetailsService {

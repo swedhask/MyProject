@@ -1,10 +1,13 @@
-package com.example.assess;
+package com.example.assess.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.assess.entity.Address;
+import com.example.assess.repository.Addressrepository;
 
 @Service
 public class Addressservice {

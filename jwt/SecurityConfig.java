@@ -1,4 +1,4 @@
-package com.example.assess;
+package com.example.assess.jwt;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

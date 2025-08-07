@@ -2,8 +2,8 @@ package com.example.assess.dto;
 
 import java.util.List;
 
-import com.example.assess.Address;
-import com.example.assess.Course;
+import com.example.assess.entity.Address;
+import com.example.assess.entity.Course;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
